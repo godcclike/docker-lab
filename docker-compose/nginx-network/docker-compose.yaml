@@ -1,0 +1,23 @@
+# version: "3"
+# services:
+#   website:
+#     image: nginx
+#     ports:
+#       - "8081:80"
+#     restart: always
+#   website2:
+#     image: nginx
+#     ports:
+#       - "8082:80"
+#     restart: always
+#     networks:
+#       homenw:
+#         ipv4_address: 192.168.0.21
+
+# networks:
+#   homenw:
+#     ipam:
+#       driver: default
+#       config:
+#         - subnet: "192.168.0.0/24"
+
